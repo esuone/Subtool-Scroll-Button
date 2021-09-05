@@ -1,0 +1,8 @@
+//ZBRUSH MACRO - Recorded in ZBrush version 2021
+[IButton,???,"Up the ScrollBar",
+[IShowActions,0]
+[IConfig,2021]
+[VarDef,num,[IGetSecondary,Tool:Sub Tool:Subtool ScrollBar]]
+[VarSet,num,num+1]
+[ISet,Tool:SubTool:Subtool Scrollbar,0,num]
+]
